@@ -14,3 +14,5 @@ fs.appendFile('./files/writere.txt','\nwelcome to   cave\n ',(err)=>{
     if (err) throw err;
 })
 
+const {format}=require('date-fns');
+console.log(format(new Date(),'yyyy/MM/dd\n HH:mm:ss'));
