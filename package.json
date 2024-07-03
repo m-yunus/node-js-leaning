@@ -1,7 +1,6 @@
 {
   "name": "starting",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index",
@@ -18,9 +17,11 @@
   },
   "homepage": "https://github.com/m-yunus/node-js-leaning#readme",
   "dependencies": {
-    "date-fns": "^3.6.0"
+    "date-fns": "^3.6.0",
+    "uuid": "^10.0.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.4"
-  }
+  },
+  "description": ""
 }
